@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Doraemon Run">
+<meta name="apple-mobile-web-app-title" content="Doraemon: Tokyo Adventure">
 <meta name="theme-color" content="#1e88e5">
-<title>Doraemon in Tokyo</title>
+<title>Doraemon: Tokyo Adventure</title>
 <style>
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   html, body {
@@ -522,7 +522,7 @@ function draw(now) {
   mice.forEach(drawMouse);
   drawDora(now);
   drawHUD();
-  if (phase === 'idle') banner('Doraemon in Tokyo', 'Tap to start', '◀ ▶ Move   ▲ Jump   Hold ▲ again = Take-copter');
+  if (phase === 'idle') banner('Doraemon: Tokyo Adventure', 'Tap to start', '◀ ▶ Move   ▲ Jump   Hold ▲ again = Take-copter');
   if (phase === 'over') banner('Game Over', 'Dorayaki: ' + score + '   Best: ' + best, 'Tap to play again');
   if (phase === 'win') banner('Anywhere Door!', 'Dorayaki: ' + score + '   Best: ' + best, 'Tap to play again');
 }
